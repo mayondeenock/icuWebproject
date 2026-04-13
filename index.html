@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Personal Portfolio Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+<header>
+    <h1 id="top">My Personal Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#home" title="Go to Home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="home">
+    <h2>Welcome</h2>
+    <p>Hello! My name is <strong>Enock mayonde</strong>. This is my personal portfolio website created using HTML.</p>
+    <p>I am learning <em>web development</em> and building my skills step by step.</p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+    <article>
+        <p>I am a student passionate about technology and programming.</p>
+        <p>My goal is to become a professional web developer.</p>
+    </article>
+
+    <aside>
+        <h3>Quick Facts</h3>
+        <ul>
+            <li>Location: Zambia</li>
+            <li>Hobby: Coding</li>
+            <li>Favorite Language: HTML</li>
+        </ul>
+    </aside>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <h3>Technical Skills</h3>
+    <ul>
+        <li>HTML</li>
+        <li>Basic CSS</li>
+        <li>Git & GitHub</li>
+    </ul>
+
+    <h3>Skill Progress</h3>
+    <label for="html">HTML:</label>
+    <progress id="html" value="80" max="100"></progress><br>
+
+    <label for="css">CSS:</label>
+    <progress id="css" value="50" max="100"></progress>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <article>
+        <h3>Project 1</h3>
+        <p>A simple website created using HTML.</p>
+    </article>
+
+    <article>
+        <h3>Project 2</h3>
+        <p>A personal profile page.</p>
+    </article>
+
+    <table border="1">
+        <caption>Project Summary</caption>
+        <thead>
+            <tr>
+                <th>Project</th>
+                <th>Technology</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Website</td>
+                <td>HTML</td>
+            </tr>
+            <tr>
+                <td>Profile</td>
+                <td>HTML</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+
+    <figure>
+        <img src="https://via.placeholder.com/150" alt="Sample Image 1" width="150" height="150">
+        <figcaption>Sample Image 1</figcaption>
+    </figure>
+
+    <figure>
+        <img src="https://via.placeholder.com/150" alt="Sample Image 2">
+        <figcaption>Sample Image 2</figcaption>
+    </figure>
+
+    <iframe src="https://example.com" title="Example Site" width="300" height="200"></iframe>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Form</legend>
+
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+            <label for="gender">Gender:</label><br>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+
+            <input type="checkbox" id="subscribe" name="subscribe">
+            <label for="subscribe">Subscribe to newsletter</label><br><br>
+
+            <button type="submit">Send</button>
+        </fieldset>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 My Portfolio</p>
+    <p><a href="#top">Back to Top</a></p>
+</footer>
+
+</body>
+</html>
